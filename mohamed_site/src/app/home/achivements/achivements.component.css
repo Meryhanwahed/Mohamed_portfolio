@@ -1,7 +1,7 @@
 /* Container Styles */
 .achievements {
-  background: linear-gradient(to right, #4d4798, #67639c);
-  color: #fff;
+  background: linear-gradient(to right, #C8ACD6, #EEEEEE);
+  color: var(--paragraph-color);
   padding: 4rem 0;
   text-align: center;
 }
@@ -14,7 +14,7 @@
 .achievements p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #f0f0f0;
+  color: var(--main-color);
 }
 
 /* Cards Container */
@@ -54,14 +54,14 @@
 .achievement-card h3 {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #f8f9fa;
+  color: var(--paragraph-color);
   margin-bottom: 0.5rem;
   text-align: left;
 }
 
 .achievement-card p,
 .achievement-card h4 {
-  color: #d1d1d1;
+  color: var(--paragraph-color);
   text-align: left;
   font-size: 1rem;
   margin-top: 0.5rem;
@@ -71,10 +71,12 @@
 .achievement-card ul {
   list-style-type: disc;
   padding-left: 1.5rem;
-  color: #d1d1d1;
+  color: var(--bg-navy-color);
   font-size: 1rem;
 }
-
+li{
+  text-align: left;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .achievements {

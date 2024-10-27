@@ -1,1 +1,23 @@
-<p>services works!</p>
+<section class="services-section" id="Services">
+    <div class="container">
+      <h2>What I Can Do for You</h2>
+      <p class="main-title">Bringing Your Vision to Life, One Step at a Time</p>
+  
+      <div class="services-grid">
+        <div class="service-card" *ngFor="let service of services">
+          <div class="icon">
+            <img [src]="service.icon" alt="{{ service.title }} icon" />
+          </div>
+          <div class="service-content">
+            <h3>{{ service.title }}</h3>
+            <h4>{{ service.subtitle }}</h4>
+            <p>{{ service.description }}</p>
+          </div>
+          <div class="hover-content">
+            <p>{{ service.hoverText }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
