@@ -1,0 +1,21 @@
+<section class="achievements" id="achievement">
+  <div class="container">
+    <h2>Achievements in Action</h2>
+    <p>Milestones reached through dedication and expertise.</p>
+
+    <div class="achievement-cards">
+      <div class="achievement-card" *ngFor="let achievement of achievements">
+        <img [src]="achievement.logo" alt="{{achievement.title}} Logo" class="achievement-logo" />
+        <h3>{{achievement.title}}</h3>
+        <p><strong>Role:</strong> {{achievement.role}}</p>
+        <p><strong>Overview:</strong> {{achievement.overview}}</p>
+        <h4>Responsibilities:</h4>
+        <ul>
+          <li *ngFor="let responsibility of achievement.responsibilities">{{responsibility}}</li>
+        </ul>
+        <h4>Outcome:</h4>
+        <p>{{achievement.outcome}}</p>
+      </div>
+    </div>
+  </div>
+</section>

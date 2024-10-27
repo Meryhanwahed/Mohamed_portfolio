@@ -1,0 +1,16 @@
+<section class="on-the-horizon">
+    <div class="container">
+      <h2>On the Horizon</h2>
+      <p>Exciting projects and roles shaping the future of space.</p>
+  
+      <div class="horizon-cards">
+        <div class="horizon-card" *ngFor="let project of horizonProjects">
+          <img [src]="project.logo" alt="{{project.title}} Logo" class="horizon-logo" />
+          <h3>{{project.title}}</h3>
+          <p><strong>Role:</strong> {{project.role}}</p>
+          <p><strong>Overview:</strong> {{project.overview}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
