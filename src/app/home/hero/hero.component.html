@@ -1,8 +1,22 @@
-<section class="hero">
-    <div class="hero-content">
-      <h1>Welcome to Mohamed Ezzelragel Portfolio</h1>
-      <p>Junior Project Manager | Strategic Leader | Entrepreneur</p>
-      <a href="#achievement" class="btn-primary">View My Work</a>
+<section class="hero" id="hero">
+  <video autoplay muted loop class="background-video">
+    <source src="assets/images/hero/bg2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="row align-items-center text-center text-md-left">
+    <div class="col-md-6">
+      <h1 class="display-4">
+        Turning ideas into action with creativity and passion.
+      </h1>
+      <p class="lead">
+        Junior Project Manager | Strategic Leader | Entrepreneur
+      </p>
     </div>
-  </section>
-  
+    <div class="col-md-6">
+      <button class="btn btn-primary mb-2" style="width: 300px;" (click)="viewMyWork()">View My Work</button>
+      <br>
+      <button class="btn btn-outline-primary" style="width: 300px;" (click)="openLinkedIn()">LinkedIn</button>
+    </div>
+  </div>
+</section>

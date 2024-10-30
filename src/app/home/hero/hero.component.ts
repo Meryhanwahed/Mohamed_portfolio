@@ -7,11 +7,15 @@ import { Component,OnInit } from '@angular/core';
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.css'
 })
-export class HeroComponent implements OnInit {
+export class HeroComponent{
 
-  constructor() { }
+  viewMyWork() {
+    window.open('#achievement'); // Open in a new tab
+  }
 
-  ngOnInit(): void {
+  // Function to handle LinkedIn button click
+  openLinkedIn() {
+    window.open('https://www.linkedin.com/in/mohammed-ezzelrgal/', '_blank'); // Open LinkedIn profile
   }
 
 }

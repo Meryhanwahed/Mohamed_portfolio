@@ -1,6 +1,6 @@
 /* Container Styles */
 .achievements {
-  background: linear-gradient(to right, #C8ACD6, #EEEEEE);
+  background: linear-gradient(to right, #17153B, #EEEEEE);
   color: var(--paragraph-color);
   padding: 4rem 0;
   text-align: center;
@@ -9,12 +9,13 @@
 .achievements h2 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
+  color: aliceblue;
 }
 
 .achievements p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: var(--main-color);
+  color: #EEEEEE;
 }
 
 /* Cards Container */
@@ -54,7 +55,7 @@
 .achievement-card h3 {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--paragraph-color);
+  color: var(--main-color);
   margin-bottom: 0.5rem;
   text-align: left;
 }
@@ -71,7 +72,7 @@
 .achievement-card ul {
   list-style-type: disc;
   padding-left: 1.5rem;
-  color: var(--bg-navy-color);
+  color: var(--paragraph-color);
   font-size: 1rem;
 }
 li{
